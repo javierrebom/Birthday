@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.birthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cumple01"
+        android:id="@+id/imageView01"
+        android:scaleType="centerCrop"
+        android:layout_alignTop="@+id/textView1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/names"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="32sp"
+        style="@style/Padding"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/family_text"
+        android:textSize="32sp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:textStyle="normal|bold|italic"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_cumple"
+        android:id="@+id/textView1"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        style="@style/Padding"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
